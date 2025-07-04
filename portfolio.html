@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daniya Shaik | Software Developer</title>
+  <style>
+    :root {
+      --primary: #2c3e50;
+      --accent: #3498db;
+      --bg: #ecf0f1;
+      --text: #2c3e50;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin: 2rem 0;
+    }
+
+    h2 {
+      color: var(--primary);
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 0.5rem;
+    }
+
+    .skills, .coreskills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: var(--primary);
+      color: white;
+    }
+
+    .social a {
+      color: #456882;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Daniya Subhana Shaik</h1>
+    <p>Software Developer | Java Enthusiast | Problem Solver</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        An aspiring developer, driven by a strong foundation in Java programming, OOPs concepts, and problem-solving, with a keen interest in applying core Java skills and exploring data visualization tools. Passionate about problem-solving and eager to learn and contribute in a dynamic organization.
+      </p>
+    </section>
+
+    <section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+
+    <div class="card">
+      <h3>Caesar Cipher Web App</h3>
+      <ul>
+        <li>Developed a browser-based Caesar Cipher tool for encoding/decoding text with customizable shift, modulo, and character set.</li>
+        <li>Implemented a clean, interactive UI and logic to handle letter casing and foreign character removal.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>To-Do List Web Application</h3>
+      <ul>
+        <li>Developed a responsive and visually appealing to-do list application with add, edit, and delete capabilities.</li>
+        <li>Implemented dynamic DOM manipulation and event handling using JavaScript.</li>
+        <li>Used localStorage to persist user data across sessions without backend integration.</li>
+        <li>Enabled in-place editing of tasks with intuitive UI feedback.</li>
+        <li>Styled the app using modern CSS, including flexbox and gradient backgrounds.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Productivity Dashboard Web App</h3>
+      <ul>
+        <li>Developed a web-based dashboard to manage daily tasks and routines efficiently.</li>
+        <li>Features an interactive calendar with event creation and color-coded labels.</li>
+        <li>Includes a to-do list with add, delete, filter, and undo options.</li>
+        <li>Custom timer with alarm sound for focused work sessions.</li>
+        <li>Sticky notes feature with save and delete functionality.</li>
+        <li>Displays real-time clock and weather info using Open-Meteo API.</li>
+        <li>Supports dark mode toggle and persistent data via localStorage.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="card">Java</div>
+        <div class="card">C</div>
+        <div class="card">HTML, CSS, JavaScript</div>
+        <div class="card">SQL</div>
+        <div class="card">OOP</div>
+        <div class="card">DSA</div>
+        <div class="card">Power BI (Basic)</div>
+        <div class="card">Tableau</div>
+      </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>
+            <strong>Data Structures & Algorithms in Java – Udemy (2024)</strong><br>
+            Completed a hands-on course to build a strong foundation in algorithms and problem-solving with Java.
+            </li>
+            <li>
+            <strong>5-Day Coding Challenge – Code Institute (2024)</strong><br>
+            </li>
+        </ul>
+    </section>
+
+
+    <section id="coreskills">
+      <h2>Core Competencies</h2>
+      <div class="coreskills">
+        <div class="card">Self-motivated</div>
+        <div class="card">Analytical and logical thinker</div>
+        <div class="card">Passionate about learning new technologies</div>
+        <div class="card">Positive attitude towards feedback and improvement</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: shaikdaniya1109@gmail.com</p>
+      <p>Nationality: Indian</p>
+      <p>Languages: English, Hindi, Telugu, Urdu</p>
+      <div class="social">
+        <a href="https://github.com/DaniyaShaik11" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/daniya-s-b3055a320/" target="_blank">LinkedIn</a>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Daniya Subhana Shaik | B.Tech CSE, Mohan Babu University (2026) | Tirupati, India</p>
+  </footer>
+
+</body>
+</html>
